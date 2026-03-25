@@ -1,5 +1,6 @@
 import json
 import re
+import cowsay
 
 print(json.dumps({"name" : "jai", "age": 22})) #dictionary
 print(json.dumps(["apple", "banana"])) #list
@@ -38,3 +39,5 @@ if x:
   print("YES! We have a match!")
 else:
   print("No match")
+
+cowsay.cow("Maaaaaaaa......")
