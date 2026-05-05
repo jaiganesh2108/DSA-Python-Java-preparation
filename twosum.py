@@ -31,4 +31,4 @@ class Solution(object):
 
             lookup[num] = i
 
-            #1
+            #12
