@@ -30,3 +30,5 @@ class Solution(object):
                 return [lookup[complement],i]
 
             lookup[num] = i
+
+            #1
