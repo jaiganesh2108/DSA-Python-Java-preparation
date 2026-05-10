@@ -1,2 +1,3 @@
 f = open("demofile.txt")
-print(f.read())
+for i in f:
+    print(i)
