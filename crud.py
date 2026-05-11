@@ -28,3 +28,10 @@ def delete_student(id):
         print("student not found")
 
 # testing CRUD Operations
+
+create_student("jai", 1)
+read_student()
+update_student(1, "vijay kumar")
+read_student()
+delete_student(1)
+read_student()
