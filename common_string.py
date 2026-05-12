@@ -1,16 +1,20 @@
-strs = ["dog","racecar","car"]
+class Solution:
 
-def longestCommonPrefix(strs):
-    if not strs:
-        return ""
-    
-    prefix = strs[0]
-    for s in strs[1:]:
-        while not s.startswith(prefix):
-            prefix = prefix[:-1]
+    def longestCommonPrefix(self,strs):
+  
+        if not strs:
+            return ""
+        
+        prefix = strs[0]
+        for s in strs[1:]:
+            while not s.startswith(prefix):
+                prefix = prefix[:-1]
 
-            if prefix == "":
-                return ""
-    return prefix
+                if prefix == "":
+                    return ""
+        return prefix
+obj = Solution()
 
-print(longestCommonPrefix(strs))
+strs = ["flower","flow","flight"]
+
+print(obj.longestCommonPrefix(strs))
