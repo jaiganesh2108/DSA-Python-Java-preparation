@@ -1,4 +1,4 @@
-strs = ["flower","flow","flight"]
+strs = ["dog","racecar","car"]
 
 def longestCommonPrefix(strs):
     if not strs:
