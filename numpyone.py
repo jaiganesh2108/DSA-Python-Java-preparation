@@ -6,4 +6,4 @@ print(arr)
 
 print(arr + 10)
 
-print(type(arr))
+print(type(arr))c
