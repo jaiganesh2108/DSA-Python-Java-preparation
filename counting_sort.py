@@ -16,4 +16,5 @@ def counting_sort(arr):
 unsorted_arr = [4, 2, 2, 8, 3, 3, 1]
 sorted_arr = counting_sort(unsorted_arr)
 print("Sorted array:", sorted_arr)
+print("array sorted successfully!")
     
