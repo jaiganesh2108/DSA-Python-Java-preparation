@@ -17,4 +17,4 @@ unsorted_arr = [4, 2, 2, 8, 3, 3, 1]
 sorted_arr = counting_sort(unsorted_arr)
 print("Sorted array:", sorted_arr)
 print("array sorted successfully!")
-print("this is the array sorted using counting sort algorithm",sorted_arr[:5])
+print("this is the array sorted using counting sort algorithm",sorted_arr[1:5])
